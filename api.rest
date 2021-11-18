@@ -1,0 +1,24 @@
+###
+GET http://localhost:4000/api/employees
+
+###
+POST http://localhost:4000/api/employees
+Content-Type: application/json
+
+{
+    "name":"Jorge Medina",
+    "position":"Encargado compras",
+    "office":"Administracion",
+    "salary":"80000"
+}
+###
+GET http://localhost:4000/api/employees/6196446d1ecf1df6b43f28b7
+###
+DELETE http://localhost:4000/api/employees/619645c5e4d9ff53a454e66b
+###
+PUT http://localhost:4000/api/employees/6196478860fc4c7dac7d4672
+Content-Type: application/json
+
+{
+     "salary":"100000"
+}

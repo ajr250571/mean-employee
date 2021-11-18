@@ -1,0 +1,12 @@
+// Inicializzar proyecto en node
+npm init -y
+
+// Instala bases
+npm install express morgan
+npm i nodemon -D
+
+// ejecuta nodemon
+npm run dev
+
+//mongodb
+npm i mongoose
